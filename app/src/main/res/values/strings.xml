@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CryptMedia</string>
+    <string name="username">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="create_account">Créer mon compte</string>
+    <string name="login">Connexion</string>
+    <string name="more">\u22EE</string>
+    <string name="new_task">Create new task</string>
+    <string name="logout">Déconnexion</string>
+    <string name="remove">REMOVE</string>
+    <string name="seeArticle">Voir l\'article complet ></string>
+    <string name="api_key">https://newsapi.org/v2/everything?q=bitcoin&amp;apiKey=a152a627967242f78b6e06ddd0a7b8d2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_title"
+                android:layout_margin="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Title : "/>
+
+            <ImageView
+                android:layout_below="@+id/article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_image"
+                android:layout_margin="5dp"/>
+
+            <TextView
+                android:layout_below="@+id/article_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_author"
+                android:layout_margin="5dp"
+                android:text="OverView : "/>
+
+            <TextView
+                android:layout_below="@+id/article_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_content"
+                android:textSize="15sp"
+                android:layout_margin="5dp"
+                android:text=""/>
+
+            <Button
+                android:layout_below="@+id/article_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_button"
+                android:text="@string/seeArticle"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
